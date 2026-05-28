@@ -1,11 +1,13 @@
 .lanyard-wrapper {
   position: relative;
   z-index: 0;
-  width: 200vh;
-  height: 70vh;
+  width: 100%;
+  max-width: 960px;
+  height: min(70vh, 560px);
   display: flex;
   justify-content: center;
   align-items: center;
+  touch-action: none;
   transform: scale(1);
   transform-origin: center;
 }

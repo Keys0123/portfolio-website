@@ -19,6 +19,7 @@ export default function Lanyard({ position = [0, 0, 30], gravity = [0, -40, 0], 
   return (
     <div className="lanyard-wrapper">
       <Canvas
+        style={{ touchAction: 'none' }}
         camera={{ position: position, fov: fov }}
         gl={{ alpha: transparent }}
         onCreated={({ gl }) => gl.setClearColor(new THREE.Color(0x000000), transparent ? 0 : 1)}
