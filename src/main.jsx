@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import PreLoader from './components/PreLoader.jsx'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import "animate.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -19,5 +20,6 @@ createRoot(document.getElementById('root')).render(
       <App />
       <Footer/>
     </div>
+    <SpeedInsights />
   </StrictMode>,
 )
