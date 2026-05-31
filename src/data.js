@@ -1,11 +1,4 @@
 import HeroImage from "/assets/hero-img.webp";
-
-const Image = {
-  HeroImage,
-};
-
-export default Image;
-
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
 import Tools3 from "/assets/tools/ubuntu.png";
@@ -19,6 +12,16 @@ import Tools10 from "/assets/tools/php.png";
 import Tools11 from "/assets/tools/mysql.png";
 import Tools12 from "/assets/tools/python.png";
 import Tools13 from "/assets/tools/jenkins.png";
+import Tools14 from "/assets/tools/javascript.png";
+import Tools15 from "/assets/tools/mongo.png";
+import Tools16 from "/assets/tools/node.png";
+import Tools17 from "/assets/tools/vite.png";
+
+const Image = {
+  HeroImage,
+};
+
+export default Image;
 
 export const listTools = [
   {
@@ -112,6 +115,36 @@ export const listTools = [
     ket: "CI/CD",
     dad: "1300",
   },
+  {
+    id: 14,
+    gambar: Tools14,
+    nama: "JavaScript",
+    ket: "Language",
+    dad: "1400",
+  },
+  {
+    id: 15,
+    gambar: Tools15,
+    nama: "MongoDB",
+    ket: "Database",
+    dad: "1500",
+  },
+  {
+    id: 16,
+    gambar: Tools16,
+    nama: "Node.js",
+    ket: "Runtime Environment",
+    dad: "1600",
+  },
+   {
+    id: 17,
+    gambar: Tools17,
+    nama: "Vite",
+    ket: "Build Tool",
+    dad: "1700",
+  },
+  
+
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.jpg";
